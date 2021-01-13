@@ -6,6 +6,7 @@ import numbers;
 //3. Header units
 //4. templates / concepts
 //5. export structs / classes
+//6. Demonstrate the isolation of macros
 
 int main()
 {
