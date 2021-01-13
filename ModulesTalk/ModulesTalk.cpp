@@ -11,7 +11,7 @@ import numbers;
 int main()
 {
 	
-	//const auto res2 = helper(5); //Will not compile
+	//const auto res2 = helper(5); //Will not compile since not exported.
 	print_magic_number();
 }
 
