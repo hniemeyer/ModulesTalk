@@ -1,4 +1,3 @@
-#include <iostream>
 import numbers;
 
 int main()
