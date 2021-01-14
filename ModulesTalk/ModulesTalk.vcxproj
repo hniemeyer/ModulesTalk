@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="more_numbers.ixx" />
     <ClCompile Include="numbers.cpp" />
     <ClCompile Include="numbers.ixx" />
     <ClCompile Include="ModulesTalk.cpp" />
