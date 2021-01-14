@@ -1,5 +1,7 @@
 module numbers;
 
+#define MAGIC 42
+
 int get_magic_number()
 {
 	return helper(5);
@@ -7,5 +9,5 @@ int get_magic_number()
 
 int helper(int x)
 {
-	return x + 42;
+	return x + MAGIC;
 }
