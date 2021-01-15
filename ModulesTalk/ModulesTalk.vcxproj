@@ -148,7 +148,6 @@
     <ClCompile Include="numbers.ixx" />
     <ClCompile Include="ModulesTalk.cpp" />
     <ClCompile Include="printer.ixx" />
-    <ClCompile Include="printer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
