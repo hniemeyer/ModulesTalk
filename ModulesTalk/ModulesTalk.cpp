@@ -1,5 +1,6 @@
 import numbers;
 import more_numbers;
+import printer;
 
 //TODO
 //2. module parts / fragments
@@ -13,5 +14,6 @@ int main()
 	//const auto res2 = helper(5); //Will not compile since not exported.
 	print_magic_number();
 	const auto res3 = more_magic();
+	print_stuff(res3);
 }
 
