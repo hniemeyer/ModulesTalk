@@ -1,5 +1,8 @@
 # Script for live demo
 
+* Switch c++ standard to /std:c++latest to activate modules
+* Show how to add new module with IDE
+
 ## Open numbers.ixx
 
 * In MSBuild a module interface file has to have the ending .ixx
@@ -39,3 +42,7 @@
 
 * Order of imports does not matter
 * trying to use not exported functions or macro definitions will not work
+
+## Stuff to try out
+
+* import module in another module
