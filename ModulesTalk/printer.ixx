@@ -1,6 +1,6 @@
 module;
-#include <concepts>
-#include <iostream>
+import <concepts>;
+import <iostream>;
 
 export module printer;
 
@@ -11,6 +11,6 @@ export template <typename T> void print_stuff(T element) {
     std::cout << "You are printing a floating point value: " << element
               << " \n";
   } else {
-    std::cout << "You are printing: " << element << " \n";
+    std::cout << "You are printing neither a float nor an integral value: " << element << " \n";
   }
 }

@@ -4,7 +4,6 @@ import printer;
 
 // TODO
 // 2. module parts / fragments
-// 3. Header units
 // 5. export structs / classes
 
 int main() {
