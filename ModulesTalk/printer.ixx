@@ -1,5 +1,3 @@
-module;
-
 export module printer;
 
 import <concepts>;
