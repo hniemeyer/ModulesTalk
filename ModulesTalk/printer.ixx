@@ -1,8 +1,10 @@
 module;
+
+export module printer;
+
 import <concepts>;
 import <iostream>;
 
-export module printer;
 
 export template <typename T> void print_stuff(T element) {
   if constexpr (std::integral<T>) {
