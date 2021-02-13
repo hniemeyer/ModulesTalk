@@ -1,5 +1,6 @@
 # Script for live demo
 
+* Switch to solution view
 * Switch c++ standard to /std:c++latest to activate modules (project -> properties -> C/C++ -> language)
 * Show how to add new module with IDE
 
