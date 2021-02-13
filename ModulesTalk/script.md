@@ -27,7 +27,6 @@
 
 ## Open printer.ixx
 
-* `module;` is the global module fragment. This is the place for includes
 * In this example we want to use concepts library and iostream from the standard library
 * We dont include them but import them
 * But the standard library is not modularized yet 
