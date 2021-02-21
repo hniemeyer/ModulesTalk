@@ -5,6 +5,7 @@ module;
 export module printer;
 
 import <concepts>;
+//import "fmt/core.h"; //works as well
 
 export template <typename T> void print_stuff(T element) {
   if constexpr (std::integral<T>) {

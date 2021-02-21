@@ -36,7 +36,7 @@
 * But the standard library is not modularized yet 
 * These are header units not modules
 * speed up overall build time by creating similar metadata as done for modules
-* works for well-behaved headers like the standard library
+* works for well-behaved headers like the standard library (and also for fmt -> lets test)
 * All items declared in the header are made available
 * macro definitions and other preprocessor states are still leaked to the consumers of the header units
 * no real isolation
