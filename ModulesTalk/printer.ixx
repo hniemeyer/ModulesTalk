@@ -1,16 +1,17 @@
+module;
+
+#include <fmt/core.h>
+
 export module printer;
 
 import <concepts>;
-import <iostream>;
-
 
 export template <typename T> void print_stuff(T element) {
   if constexpr (std::integral<T>) {
-    std::cout << "You are printing an integral value: " << element << " \n";
+    fmt::print( "You are printing an integral value: {}  \n", element);
   } else if (std::floating_point<T>) {
-    std::cout << "You are printing a floating point value: " << element
-              << " \n";
+      fmt::print("You are printing an floating point value: {}  \n", element);
   } else {
-    std::cout << "You are printing neither a float nor an integral value: " << element << " \n";
+      fmt::print("You are printing neither an integral or floating point value: {}  \n", element);
   }
 }
