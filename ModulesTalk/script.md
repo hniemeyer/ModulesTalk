@@ -32,7 +32,7 @@
 * only preprocessor allowed 
 * we use it to include fmt
 * only used entities from fmt go into the named module rest will be discarded 
-* In this example we want to use concepts library from the standard library
+* In this example we also want to use concepts library from the standard library
 * We dont include them but import them
 * But the standard library is not modularized yet 
 * These are header units not modules
