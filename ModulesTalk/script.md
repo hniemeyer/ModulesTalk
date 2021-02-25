@@ -21,7 +21,8 @@
 ## Open more_numbers.ixx
 
 * In this module we have functions `get_magic_number` and `helper` which are not exported and also a macro named `MAGIC`
-* This is not a problem if both modules (`numbers` and `more_numbers`) are used along side each other in a program
+* This is not a problem if both modules (`numbers` and `more_numbers`) are used along side each other in a program because they are not exported
+* Show what happens when they are exported, show fix with inline namespace
 * Macros are in general not visable outside of the module
 * Only exported functions can lead to ODR violations when two or more modules are imported in a program
 
