@@ -3,6 +3,7 @@
 * Switch to solution view
 * Switch c++ standard to /std:c++latest to activate modules (project -> properties -> C/C++ -> language)
 * Show how to add new module with IDE
+* compile and show what is the outcome
 
 ## Open numbers.ixx
 
@@ -53,4 +54,5 @@
 
 ## Stuff to try out
 
+* introducte namespace in more_numbers or printer (first without exporting the namespace than with)
 * import module in another module
