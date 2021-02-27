@@ -17,6 +17,7 @@
 
 * With `module numbers;` we tell the compiler that this cpp file is part of the implementation of the module numbers
 * it containts the defintion of the `get_magic_number` function
+* there is no include neccessary to get access to the function `helper` they are just part of the same module
 
 ## Open more_numbers.ixx
 
@@ -47,6 +48,8 @@
 
 * Order of imports does not matter
 * trying to use not exported functions or macro definitions will not work
+* Downside of this design: We dont know which function comes from which module
+* there a no implicit namespaces but we can export namespaces as well
 
 ## Stuff to try out
 
