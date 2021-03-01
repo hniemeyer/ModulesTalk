@@ -56,4 +56,5 @@
 ## Stuff to try out
 
 * introducte namespace in more_numbers or printer (first without exporting the namespace than with)
-* import module in another module
+* uncomment the ill-formed, no diagnostic required code (break_my_code function exists twice but this is not ODR violation but NDR, 
+compiler is not required to halt although the program is malformed)
