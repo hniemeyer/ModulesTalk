@@ -44,7 +44,6 @@
 * macro definitions and other preprocessor states are still leaked to the consumers of the header units
 * no real isolation
 * we can import another module like more_numbers here when we want to use it
-* fmt works also as a header unit
 * modules work well with templates and concepts  but `export` needs to be the first keyword in the declaration
 
 ## Open ModulesTalk.cpp
