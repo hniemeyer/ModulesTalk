@@ -58,3 +58,4 @@
 * introducte namespace in more_numbers or printer (first without exporting the namespace than with)
 * uncomment the ill-formed, no diagnostic required code (break_my_code function exists twice but this is not ODR violation but NDR, 
 compiler is not required to halt although the program is malformed)
+* switch import order of numbers and more_numbers will yield different return values
