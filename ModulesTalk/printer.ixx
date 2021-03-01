@@ -5,6 +5,7 @@ module;
 export module printer;
 
 import <concepts>;
+import more_numbers;
 //import "fmt/core.h"; //works as well
 
 export template <typename T> void print_stuff(T element) {
@@ -14,5 +15,6 @@ export template <typename T> void print_stuff(T element) {
       fmt::print("You are printing an floating point value: {}  \n", element);
   } else {
       fmt::print("You are printing neither an integral or floating point value: {}  \n", element);
+      fmt::print("and the magic number is {}", more_magic());
   }
 }
