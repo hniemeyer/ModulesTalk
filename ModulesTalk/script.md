@@ -59,3 +59,4 @@
 * uncomment the ill-formed, no diagnostic required code (break_my_code function exists twice but this is not ODR violation but NDR, 
 compiler is not required to halt although the program is malformed)
 * switch import order of numbers and more_numbers will yield different return values
+* export a simple struct (like Point2d)
