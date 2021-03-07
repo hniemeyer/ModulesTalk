@@ -45,6 +45,8 @@
 * no real isolation
 * we can import another module like more_numbers here when we want to use it
 * modules work well with templates and concepts  but `export` needs to be the first keyword in the declaration
+* there is a private module fragment for separating declaration and definition inside a single file
+* you can change the implementation without affecting the importer of the module if you dont change the interface
 
 ## Open ModulesTalk.cpp
 

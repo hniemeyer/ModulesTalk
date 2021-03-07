@@ -18,3 +18,11 @@ export template <typename T> void print_stuff(T element) {
       fmt::print("and the magic number is {}", more_magic());
   }
 }
+
+export int add(int x, int y);
+
+module :private;
+
+int add(int x, int y) {
+    return x + y;
+};
